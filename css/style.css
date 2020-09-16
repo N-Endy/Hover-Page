@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: #fff; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4;
+}
+
+/* Utilities */
+.m-heading {
+    margin-bottom: 0.75rem;
+}
+
+.bg-dark {
+    background: #111;
+    color: #fff;
+}
+
+.bg-light {
+    background: #fff;
+    color: #111;
+}
+
+/* Header */
+#header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://image.ibb.co/gzOBup/showcase.jpg) no-repeat center center/cover;
+    color: white;
+}
+
+#header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 11rem;
+}
+
+#header .content .logo {
+    width: 11rem;
+    height: 11rem;
+    margin-bottom: -0.4rem;
+}
+
+#header .content .title {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+#header .content .text {
+    line-height: 1.6;
+}
+
+/* Section: Services */
+#services {
+    background: #111;
+    width: 100%;
+}
+
+#services .container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 4rem 11rem; */
+}
+
+#services .container div {
+    text-align: center;
+    width: 33%;
+    padding: 4rem;
+}
+
+#services .container div i,
+#services .container div h3,
+#services .container div p {
+    padding: 0.75rem;
+}
+
+/* Section: About Us */
+#about-us {
+    width: 100%;
+}
+
+#about-us .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#about-us .container .grid {
+    display: flex;
+    padding: 5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about-us .container .grid i {
+    padding: 0 8rem;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
